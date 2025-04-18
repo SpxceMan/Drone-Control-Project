@@ -1,6 +1,6 @@
 import cv2 as cv
 import mediapipe as mp
-import handTrackingModule as htmod
+import hand_track_module as htmod
 import time
 import numpy as np
 import vgamepad as vg
