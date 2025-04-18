@@ -81,8 +81,7 @@ while True:
     cv.putText(frame, f"FPS: {int(fps)}", (10, 70), cv.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 3)
 
     # Debug print
-    #print(f"Throttle: {smooth_throttle} | Pitch: {smooth_pitch} | Yaw: {smooth_yaw} | 
-          #Right Joystick Y (Pitch): {pitch_right_stick_y} | Left Joystick X (Yaw): {yaw_left_stick_x} | Left Joystick Y (Throttle): {throttle_left_stick_y}")
+    print(f"Throttle: {smooth_throttle} | Pitch: {smooth_pitch} | Yaw: {smooth_yaw} | Right Joystick Y (Pitch): {pitch_right_stick_y} | Left Joystick X (Yaw): {yaw_left_stick_x} | Left Joystick Y (Throttle): {throttle_left_stick_y}")
 
     # Show frame
     frame = cv.resize(frame, (640, 480))
